@@ -33,3 +33,11 @@ if type brew &>/dev/null; then
   compinit
 fi
 ```
+
+## issue
+
+create
+
+```
+$ gh issue create
+```

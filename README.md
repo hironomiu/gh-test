@@ -4,7 +4,7 @@ GitHub Client 練習用レポ
 
 ## 設定
 
-コマンド補完
+コマンド補完について
 
 [Homebrew Shell Completion](https://docs.brew.sh/Shell-Completion)
 

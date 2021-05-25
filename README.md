@@ -1,6 +1,6 @@
 # gh-test
 
-GitHub Client 練習用レポ
+GitHub Client & Actions 練習用レポ
 
 ## 設定
 
@@ -42,13 +42,19 @@ create
 $ gh issue create
 ```
 
-## setup
+## Actions
+
+[node.js.yml](./.github/workflows/node.js.yml)
+
+## 動作確認コード
+
+### setup
 
 ```
 $ yarn install
 ```
 
-## test
+### test
 
 ```
 $ yarn test

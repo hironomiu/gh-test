@@ -41,3 +41,15 @@ create
 ```
 $ gh issue create
 ```
+
+## setup
+
+```
+$ yarn install
+```
+
+## test
+
+```
+$ yarn test
+```

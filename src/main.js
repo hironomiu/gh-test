@@ -4,6 +4,8 @@
 //   },
 // }
 
+console.log("main.js")
+
 const main = () => {
   return 1
 }

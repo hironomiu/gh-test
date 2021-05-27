@@ -6,8 +6,6 @@
 
 console.log("main.js")
 
-const main = () => {
+export const main = () => {
   return 1
 }
-
-export default main

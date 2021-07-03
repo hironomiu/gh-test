@@ -26,12 +26,24 @@ GitHubとの認証
 
 ```
 ! First copy your one-time code: XXXX-XXXX <- ブラウザに入力する
+- Press Enter to open github.com in your browser... 
+✓ Authentication complete. Press Enter to continue...
 ```
 
 XXXX-XXXX(実際に表示された値)を入力する
 
 ![gh-02](./images/gh-02.png)
 
+押下する
+
+![gh-03](./images/gh-03.png)
+
+
+成功したらターミナルに戻る
+
+![gh-04](./images/gh-04.png)
+
+エンターで終了
 ```
 - Press Enter to open github.com in your browser... 
 ✓ Authentication complete. Press Enter to continue...

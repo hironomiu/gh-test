@@ -1,4 +1,4 @@
-import fizzBuzz from "./libs/fizzBuzz"
+import fizzBuzz from "./libs/fizzBuzz.js"
 
 console.log("main.js")
 

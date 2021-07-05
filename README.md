@@ -3,6 +3,7 @@
 GitHub Client & Actions 練習用レポ
 
 ## 公式サイト
+
 [GitHub CLI ](https://cli.github.com/)
 
 ## Install
@@ -11,7 +12,7 @@ GitHub Client & Actions 練習用レポ
 brew install gh
 ```
 
-GitHubとの認証
+GitHub との認証
 
 ```
 % gh auth login
@@ -26,7 +27,7 @@ GitHubとの認証
 
 ```
 ! First copy your one-time code: XXXX-XXXX <- ブラウザに入力する
-- Press Enter to open github.com in your browser... 
+- Press Enter to open github.com in your browser...
 ✓ Authentication complete. Press Enter to continue...
 ```
 
@@ -38,20 +39,21 @@ XXXX-XXXX(実際に表示された値)を入力する
 
 ![gh-03](./images/gh-03.png)
 
-
 成功したらターミナルに戻る
 
 ![gh-04](./images/gh-04.png)
 
 エンターで終了
+
 ```
-- Press Enter to open github.com in your browser... 
+- Press Enter to open github.com in your browser...
 ✓ Authentication complete. Press Enter to continue...
 
 - gh config set -h github.com git_protocol ssh
 ✓ Configured git protocol
 ✓ Logged in as hironomiu
 ```
+
 ## 設定
 
 コマンド補完について
@@ -108,4 +110,12 @@ $ yarn install
 
 ```
 $ yarn test
+```
+
+## memo
+
+nodenv にて`local 16.2.0`に設定
+
+```
+nodenv local 16.2.0
 ```

@@ -1,5 +1,7 @@
 # github-client-and-actions-training
 
+[![Node.js CI](https://github.com/hironomiu/github-client-and-actions-training/actions/workflows/node.js.yml/badge.svg)](https://github.com/hironomiu/github-client-and-actions-training/actions/workflows/node.js.yml)
+
 GitHub Client & Actions 練習用レポ
 
 ## 公式サイト

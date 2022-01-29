@@ -8,7 +8,7 @@ GitHub CLI & Actions 練習用レポ
 
 [GitHub CLI ](https://cli.github.com/)
 
-## GitHub CLI Install
+## GitHub CLI Install & SetUp
 
 ```
 brew install gh
@@ -56,7 +56,7 @@ XXXX-XXXX(実際に表示された値)を入力する
 ✓ Logged in as hironomiu
 ```
 
-## 設定
+## コマンド補完
 
 コマンド補完について
 
@@ -87,8 +87,9 @@ if type brew &>/dev/null; then
   compinit
 fi
 ```
+## GitHub CLI コマンドライン
 
-## issue
+### issue作成
 
 create
 
@@ -100,18 +101,44 @@ $ gh issue create
 
 [node.js.yml](./.github/workflows/node.js.yml)
 
-## 動作確認コード
+## 動作確認コード作成
 
-### setup
+### Package Install
+
+`package.json`に動作用に必要なパッケージは記載済み
 
 ```
 $ yarn install
 ```
 
-### test
+### コード
+
+`.src/`配下に`main.js`を配置済み(FizzBuzzの実装)
+s
+### Testing
+
+上記コードのFizzBuzzについて`./tests`にテストコードを配置済み
 
 ```
 $ yarn test
+```
+
+結果
+```
+https://github.com/browserslist/browserslist#browsers-data-updating
+ PASS  tests/fizzBuzz.test.js
+  ✓ 1を入力したら文字列1を返す (2 ms)
+  ✓ 2を入力したら文字列2を返す
+  ✓ 3を入力したら文字列Fizzを返す (1 ms)
+
+ PASS  tests/main.test.js
+  ✓ test 1 (2 ms)
+  ✓ test 2 (2 ms)
+
+Test Suites: 2 passed, 2 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.729 s
 ```
 
 ## memo

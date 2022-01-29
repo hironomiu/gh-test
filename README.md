@@ -97,6 +97,16 @@ create
 $ gh issue create
 ```
 
+以降の手順
+
+```
+Creating issue in hironomiu/github-cli-and-actions-training
+
+? Title issue作成テスト７ <- タイトルの記述
+? Body <Received> <- nanoでファイルを編集(編集後CTRL + X -> yでセーブ、エンターで抜ける)
+? What's next? Submit <- Submitで確定
+```
+
 ## Actions
 
 [node.js.yml](./.github/workflows/node.js.yml)

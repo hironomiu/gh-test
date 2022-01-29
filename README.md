@@ -1,14 +1,14 @@
-# github-client-and-actions-training
+# github-cli-and-actions-training
 
-[![Node.js CI](https://github.com/hironomiu/github-client-and-actions-training/actions/workflows/node.js.yml/badge.svg)](https://github.com/hironomiu/github-client-and-actions-training/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/hironomiu/github-cli-and-actions-training/actions/workflows/node.js.yml/badge.svg)](https://github.com/hironomiu/github-cli-and-actions-training/actions/workflows/node.js.yml)
 
-GitHub Client & Actions 練習用レポ
+GitHub CLI & Actions 練習用レポ
 
 ## 公式サイト
 
 [GitHub CLI ](https://cli.github.com/)
 
-## Install
+## GitHub CLI Install
 
 ```
 brew install gh

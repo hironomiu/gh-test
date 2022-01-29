@@ -89,9 +89,9 @@ fi
 ```
 ## GitHub CLI コマンドライン
 
-### issue作成
+### Issue
 
-create
+#### create
 
 ```
 $ gh issue create
@@ -103,6 +103,22 @@ $ gh issue create
 Creating issue in hironomiu/github-cli-and-actions-training
 
 ? Title issue作成テスト７ <- タイトルの記述
+? Body <Received> <- nanoでファイルを編集(編集後CTRL + X -> yでセーブ、エンターで抜ける)
+? What's next? Submit <- Submitで確定
+```
+
+### Pull Request
+
+#### create
+
+```
+gh pr create
+```
+
+以降の手順
+
+```
+? Title issue7取り込み <- タイトルの記述
 ? Body <Received> <- nanoでファイルを編集(編集後CTRL + X -> yでセーブ、エンターで抜ける)
 ? What's next? Submit <- Submitで確定
 ```

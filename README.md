@@ -123,6 +123,20 @@ gh pr create
 ? What's next? Submit <- Submitで確定
 ```
 
+#### merge
+
+```
+gh pr merge
+```
+
+以降の手順
+
+```
+? What merge method would you like to use? Create a merge commit
+? Delete the branch locally and on GitHub? Yes
+? What's next? Submit
+```
+
 ## Actions
 
 [node.js.yml](./.github/workflows/node.js.yml)

@@ -141,6 +141,16 @@ gh pr merge
 
 [node.js.yml](./.github/workflows/node.js.yml)
 
+今回はGitHubで提供しているテンプレートから作成
+
+Actions -> New workflow -> Node.js -> Configureを押下
+
+![gh-05](./images/gh-05.png)
+
+適時編集(例 [node.js.yml](./.github/workflows/node.js.yml))しStart commitから「Commit new file」を押下
+
+![gh-06](./images/gh-06.png)
+
 ## 動作確認コード作成
 
 ### Package Install

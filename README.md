@@ -1,4 +1,4 @@
-# gh-test
+# github-client-and-actions-training
 
 GitHub Client & Actions 練習用レポ
 

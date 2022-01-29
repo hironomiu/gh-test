@@ -1,5 +1,5 @@
 {
-  "name": "gh-test",
+  "name": "github-client-and-actions-training",
   "version": "1.0.0",
   "description": "GitHub Client 練習用レポ",
   "main": "main.js",
@@ -10,15 +10,15 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hironomiu/gh-test.git"
+    "url": "git+https://github.com/hironomiu/github-client-and-actions-training.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hironomiu/gh-test/issues"
+    "url": "https://github.com/hironomiu/github-client-and-actions-training/issues"
   },
-  "homepage": "https://github.com/hironomiu/gh-test#readme",
+  "homepage": "https://github.com/hironomiu/github-client-and-actions-training#readme",
   "devDependencies": {
     "jest": "^26.6.3",
     "webpack": "^5.37.1",
@@ -27,7 +27,7 @@
   "dependencies": {
     "cross-env": "^7.0.3"
   },
-  "jest":{
-    "verbose":true
+  "jest": {
+    "verbose": true
   }
 }

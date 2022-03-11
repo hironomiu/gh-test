@@ -1,4 +1,4 @@
-import main from "../src/main"
+import main from "../src/ts/main"
 
 test("test 1", () => {
   expect(1 + 1).toBe(2)

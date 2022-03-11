@@ -1,4 +1,4 @@
-import fizzBuzz from "../src/libs/fizzBuzz"
+import fizzBuzz from "../src/ts/libs/fizzBuzz"
 
 test("1を入力したら文字列1を返す",() => {
     const result = fizzBuzz(1)

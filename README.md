@@ -202,9 +202,17 @@ nodenv local 16.2.0
 ### TypeScript Install Memo
 
 ```
-yarn add --dev typescript @types/node ts-node
+yarn add --dev typescript @types/node ts-node 
 npx tsc --init
 mkdir src
+```
+
+### Jest
+
+```
+yarn remove jest
+yarn add --dev @types/jest ts-jest jest
+npx jest --init
 ```
 
 #### Package.json

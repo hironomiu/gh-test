@@ -198,3 +198,19 @@ nodenv にて`local 16.2.0`に設定
 ```
 nodenv local 16.2.0
 ```
+
+### TypeScript Install Memo
+
+```
+yarn add --dev typescript @types/node ts-node
+npx tsc --init
+mkdir src
+```
+
+#### Package.json
+
+`scripts`
+
+```
+"build": "tsc"
+```

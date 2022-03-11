@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install
-    - run: yarn add --dev @types/jest
+    - run: yarn add --dev @types/jest @types/node
     - run: yarn test
     - run: yarn run build

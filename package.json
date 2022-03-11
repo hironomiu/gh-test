@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --mode development"
+    "tsc": "tsc",
+    "build": "tsc && webpack --mode development"
   },
   "repository": {
     "type": "git",

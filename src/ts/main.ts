@@ -1,4 +1,4 @@
-import fizzBuzz from "./libs/fizzBuzz.js"
+import fizzBuzz from './libs/fizzBuzz'
 
 const main = () => {
   const ret = fizzBuzz(10)
